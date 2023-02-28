@@ -21,3 +21,16 @@
     padding: 2em;
     border-radius: 10px;
 }
+.search{
+    padding: 3px;
+    width: 100%;
+    background: rgb(41, 40, 40);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+}
+.searchContainer{
+    display: flex;
+    flex-direction: row;
+} 

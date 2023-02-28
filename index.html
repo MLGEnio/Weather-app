@@ -10,16 +10,20 @@
 <body>
     <div class="wrapper">
         <div class="card">
+            <div class="searchContainer">
+                <input type="text" placeholder="Search" id="search" class="search">
+                <button class="submit" id="submit">Submit</button>
+            </div>
             <div class="header">
-                <h1>Weather in Tirana</h1>
+                <h1 class="title" id="title"></h1>
             </div>
             <div class="body">
-                <p>Temperature 18°C</p>
-                <p><span class="weatherIcon"></span> Weather description</p>
+                <p id="temp"></p>
+                <span class="weatherIcon"></span> <p id="description"> </p>
             </div>
             <div class="footer">
-                <p>Humidity 59%</p>
-                <p>Wind speed 59%</p>
+                <p id="humidity"></p>
+                <p id="speed"></p>
             </div>
         </div>
     </div>
